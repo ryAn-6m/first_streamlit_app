@@ -50,7 +50,7 @@ streamlit.text(my_data_row)
 # streamlit.text(my_data_row)
 
 streamlit.write('adding', add_my_fruit)
-my_cur.execute("insert into fruit_load_list values ('from streamlit_app')")
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 
 # select * from pc_rivery_db.public.fruit_load_list
 

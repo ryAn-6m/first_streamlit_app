@@ -22,7 +22,7 @@ streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 # my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 
 # Display the table on the page.
-streamlit.dataframe(my_fruit_list)
+# streamlit.dataframe(my_fruit_list)
 
 # import requests
 # fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")

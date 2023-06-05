@@ -34,7 +34,7 @@ try:
   if not fruit_choice:
    streamlit.error("Please select a fruit to get information.")
   else:
-   fruityvice_response = requests.get(""+ fruit_choice)
+   fruityvice_response = requests.get("https://fruitvice.com/api/fruit/"+ fruit_choice)
    fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
    streamlit.dataframe(fruityvice_normalized)
 # my_cur.execute("insert into fruit_load_list values ('from streamlit')")

@@ -30,7 +30,7 @@ streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
 #create the repeatable code block(called function)
 def get_fruityvice_data(this_fruit_choice):
-fruityvice_response = requests.get("https://fruitvice.com/api/fruit/" + this_fruit_choice)
+fruityvice_response = request.get("https://fruitvice.com/api/fruit/" + this_fruit_choice)
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 return fruityvice_normalized
 

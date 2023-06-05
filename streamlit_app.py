@@ -45,7 +45,7 @@ try:
    streamlit.dataframe(back_from_function)
 # my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 # streamlit.write('The user entered ', fruit_choice)
-except URLError as e:
+# except URLError as e:
   streamlit.error()
 
 # write your own comment -what does the next line do? 

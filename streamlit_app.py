@@ -55,7 +55,7 @@ try:
 # output it the screen as a table
 # streamlit.dataframe(fruityvice_normalized)
 # don't run anthing past here while we troubleshoot
-streamlit.stop()
+# streamlit.stop()
 
 
 

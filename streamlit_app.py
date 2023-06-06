@@ -108,6 +108,12 @@ if streamlit.button('Get Fruit List'):
  streamlit.dataframe(my_data_rows)
  my_cnx.close()
  
+ class Foo:
+    def __init__(self):
+        self.reset()
+    def reset(self):
+        # set all members to their initial value
+ 
  
  
   
